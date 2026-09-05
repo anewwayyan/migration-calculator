@@ -125,6 +125,47 @@
 			<h2>Az Azure-architektúrád 🏗️</h2>
 			<div id="architecture-list"></div>
 
+<div class="current-costs">
+    <h2>Jelenlegi infrastruktúra költségei</h2>
+    <p>Add meg körülbelül, mennyibe kerül jelenleg havonta az infrastruktúrád.</p>
+
+    <label>
+        App Service / Compute
+        <input type="number" id="currentCompute" placeholder="180" min="0" step="0.01">
+        €
+    </label>
+
+    <label>
+        Adatbázis
+        <input type="number" id="currentDatabase" placeholder="40" min="0" step="0.01">
+        €
+    </label>
+
+    <label>
+        Tárhely
+        <input type="number" id="currentStorage" placeholder="12" min="0" step="0.01">
+        €
+    </label>
+
+    <label>
+        Sávszélesség
+        <input type="number" id="currentBandwidth" placeholder="25" min="0" step="0.01">
+        €
+    </label>
+
+    <label>
+        Backup
+        <input type="number" id="currentBackup" placeholder="15" min="0" step="0.01">
+        €
+    </label>
+
+    <label>
+        Monitoring
+        <input type="number" id="currentMonitoring" placeholder="5" min="0" step="0.01">
+        €
+    </label>
+</div>
+			
 			<h2>Költség-összehasonlítás 💰</h2>
 			<table class="compare-table">
 				<thead>
